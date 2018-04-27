@@ -1,0 +1,6 @@
+version '1.0.0'
+apply from: 'https://raw.githubusercontent.com/21guns/java-gradle/master/spring-boot-application.gradle'
+
+dependencies {
+    compile 'org.springframework.boot:spring-boot-starter-data-jpa'
+}
